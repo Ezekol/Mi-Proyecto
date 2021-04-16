@@ -1,0 +1,698 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+}
+
+body {
+	background-color: white;
+}
+
+header a{
+	text-decoration: none;
+	color: white;
+	font-weight: 800;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-weight: 800;	
+}
+
+
+
+
+/* CSS DE NAV */
+
+.header{
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-color: black;
+	font-size: 30px;
+	height: 70px;
+	padding: 10px;	
+	border-style: solid;
+	border-color: white;
+	position: fixed;
+	width: 100%;
+}
+
+.nav{
+	float: right;
+	margin: 12px 20px 0px 0px;
+}
+
+.itemI{
+	padding: 20px;
+} 
+
+.itemI:hover{
+	text-decoration: underline; 
+}
+
+.brand{
+	float: left;
+}
+
+.logo{
+	width: 70px;
+	float: left;
+	margin-left: 15px;
+}
+
+.ofertas{
+	background-color: red; 
+	color: white;
+	margin: 10px 0px 0px 55px;
+	padding: 0px 15px 0px 15px;
+	float: left;
+	border-style: solid;
+	border-color: white;
+}
+
+
+.searchbar{
+	float: left;
+	margin: 20px 0px 0px 70px;
+	padding: 5px 600px 5px 0px;
+	font-size: 15px;
+}
+
+.search{
+	float: left;
+	margin: 20px 0px 0px 0px;
+	padding: 5px 5px 5px 5px;
+	font-size: 15px;
+}
+
+.lightM{
+	float: left;
+	margin: 20px 0px 0px 40px;
+	padding: 0px 10px 0px 10px;
+	font-size: 20px;
+	background-color: white;
+	color: black;
+}
+
+
+
+
+
+/* CSS DE FOOTER */
+
+footer a{
+	color: white;
+}
+
+.footer{
+	color: white;
+	background-color: black;
+	height: 130px;
+	border-style: solid;
+	border-color: white;
+}
+
+.map{
+	display: inline-block;
+	margin: 0px 0px 0px 100px;
+	float: left;
+}
+
+.schedule{
+	display: inline-block;
+	margin: 0px 0px 0px 300px;
+	float: left;
+	font-weight: 800;
+}
+
+.newsletter{
+	display: inline-block;
+	margin: 30px 200px 0px 0px;
+	float: right;
+}
+
+.newsmail{
+	padding-right: 45px;
+}
+
+.suscribe{
+	background-color: red;
+	color: white;
+	padding:0;
+}
+
+.social{
+	display: inline-block;
+	margin: 30px 350px 0px 0px;	
+	float: right;
+}
+
+.social h3{
+	margin-left: 60px;
+}
+
+.itemsocial{
+	padding: 0px 5px 0px 5px;
+}
+
+
+li{
+	list-style: none;
+}
+
+
+
+
+
+/* CSS DE INDEX */
+.mainH{
+	background-image: url('./Img/hero.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 96px;
+}
+
+.containerHome{
+	display: grid;
+	grid-template-areas: 
+		"celda2 celda2 celda2"
+		"celda4 celda5 celda6"
+		"celda7 celda8 celda9";
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto; 		
+}
+
+h1 {
+	font-size: 80px;
+}
+
+.mainsubtittle{
+	font-size: 40px;
+	background-color: yellow;
+	border-style: solid;
+	border-color: black; 
+	padding: 5px 20px 5px 20px;
+	margin-left: 33%;
+}
+
+
+.celda2{
+	grid-area: celda2;
+	margin-bottom: 5%;
+	align-self: center;
+	justify-self: center;
+}
+
+
+.itemS{
+	font-size: 30px;
+	background-color: yellow;
+	border-style: solid;
+	border-color: black; 
+	padding: 5px 20px 5px 20px;
+	grid-area: celda4;
+	align-self: center;
+	justify-self: center;
+	margin-bottom: 10%;
+}
+
+
+.itemA{
+	font-size: 30px;
+	background-color: yellow;
+	padding: 5px 20px 5px 20px;	
+	border-style: solid;
+	grid-area: celda5;
+	align-self: center;
+	justify-self: center;
+	margin-bottom: 10%;
+}
+
+.itemC{
+	font-size: 30px;
+	background-color: yellow;
+	padding: 5px 20px 5px 20px;	
+	border-style: solid;
+	grid-area: celda6;
+	align-self: center;
+	justify-self: center;
+	margin-bottom: 10%;
+}
+
+.imgS{
+	border-style: solid;
+	border-color: black;	
+}
+
+.imgA{
+	border-style: solid;
+	border-color: black;	
+}
+
+.imgC{
+	border-style: solid;
+	border-color: black;
+}
+
+.imgSa{
+	grid-area: celda7;
+	align-self: center;
+	justify-self: center;
+}
+
+.imgAa{
+	grid-area: celda8;
+	align-self: center;
+	justify-self: center;
+}
+
+.imgCa{
+	grid-area: celda9;
+	align-self: center;
+	justify-self: center;
+}
+
+
+
+
+
+/* CSS DE PESTAÑA CONTACATO */
+
+.mainC{
+	background-image: url('./Img/heroC.jpg');
+	background-repeat: no-repeat;
+
+}
+
+.formtittle{
+	margin-left: 25%;
+	font-size: 50px;
+
+}
+
+.form{
+	margin-top: 95px;
+	color: white;
+	background-color: black;
+	border-color: white;
+	border-style: solid;
+	margin-left: 30%;
+	margin-right: 30%;
+	position: left;
+}
+
+.nombreF{
+	margin-left: 32%;
+	font-size: 20px;
+}
+
+.inputnombre{
+	padding-right: 20px;
+	font-size: 20px
+}
+
+.apellidoF{
+	margin-left: 31.9%;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.inputapellido{
+	padding-right: 20px;
+	font-size: 20px
+}
+
+.mailF{
+	margin-left: 31.9%;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.textmail{
+	margin-right: 2.9%;
+}
+
+.inputmail{
+	padding-right: 20px;
+	font-size: 20px
+}
+
+.textconsulta{
+	font-size: 20px;
+	margin-left: 31.9%;
+	margin-top: 20px;
+}
+
+.textareaF{
+	margin-left: 31.9%;
+	font-size: 20px;
+	padding-right: 6px;
+}
+
+.textsosF{
+	font-size: 20px;
+	margin-left: 39%;
+}
+
+.optionsF{
+	margin-left: 44.5%;
+	font-size: 20px;
+}
+
+.textlistF{
+	font-size: 20px;
+	margin-left: 25%;
+	margin-top: 20px;
+}
+
+.selectF{
+	margin-left: 36%;
+	font-size: 20px;
+}
+
+.cleanB{
+	font-size: 20px;
+	margin-left: 5%;
+}
+
+.sendB{
+	font-size: 20px;
+	margin-left: 55%;
+	margin-bottom: 20px;
+}
+
+
+
+
+/* CSS DE PESTAÑA SERVICIOS */
+
+.mainS{
+	background-image: url('./Img/heroS.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top: 95px;
+	color: white;
+}
+
+.containerServ{
+	display: grid;
+	grid-template-areas: 
+		"area1 ."
+		". area2"
+		"area3 .";
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto auto; 
+}
+
+.area1{
+	grid-area: area1;
+	align-self: center;
+	justify-self: center;
+}
+
+.area2{
+	grid-area: area2;
+	align-self: center;
+	justify-self: center;
+}
+
+.area3{
+	grid-area: area3;
+	align-self: center;
+	justify-self: center;
+}
+
+.tittle1{
+	padding-top: 20px;
+	font-size: 35px;
+}
+
+.textimg1{
+	padding-top: 20px;
+	font-size: 25px;
+}
+
+.img1{
+	border-style: solid;
+	border-color: white;
+	margin-bottom: 15px;
+}
+
+.consulta1{
+ 	padding: 10px 10px 10px 10px;
+ 	background-color: yellow;
+ 	font-size: 20px;
+ 	border-style: solid;
+ 	border-color: black;	
+}
+
+.tittle2{
+	padding-top: 20px;
+	font-size: 35px;
+}
+
+.textimg2{
+	padding-top: 20px;
+	font-size: 25px;
+}
+
+.img2{
+	border-style: solid;
+	border-color: white;
+	margin-bottom: 15px;
+}
+
+.consulta2{
+ 	padding: 10px 10px 10px 10px;
+ 	background-color: yellow;
+ 	font-size: 20px;
+ 	border-style: solid;
+ 	border-color: black;	
+}
+
+.tittle3{
+	padding-top: 20px;
+	font-size: 35px;
+}
+
+.textimg3{
+	font-size: 25px;
+}
+
+.img3{
+	border-style: solid;
+	border-color: white;
+	margin-bottom: 15px;
+}
+
+.consulta3{
+ 	padding: 10px 10px 10px 10px;
+ 	background-color: yellow;
+ 	font-size: 20px;
+ 	border-style: solid;
+ 	border-color: black;	
+}
+
+
+
+
+
+
+/* CSS DE PESTAÑA SOBRE NOSOTROS */
+
+.mainSo{
+	background-image: url('./Img/heroSo.jpg');
+	margin-top: 95px;
+	background-repeat: no-repeat;
+	color: black;
+}
+
+.containerSobre{
+	display: grid;
+	grid-template-areas: 
+		". part1 ."
+		". part2 ."
+		". part3 ."
+		". part4 .";
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto auto; 
+
+}
+
+.part1{
+	grid-area: part1;
+	align-self: center;
+	justify-self: center;
+}
+
+.part2{
+	grid-area: part2;
+	align-self: center;
+	justify-self: center;
+}
+
+.part3{
+	grid-area: part3;
+	align-self: center;
+	justify-self: center;
+}
+
+.part4{
+	grid-area: part4;
+	align-self: center;
+	justify-self: center;
+}
+
+
+.tittleSo{
+	font-size: 80px;
+}
+
+.textSo1{
+	margin-top: 100px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.textSo2{
+	margin-top: 100px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.tittleSocialSo{
+	margin-top: 100px;
+	font-size: 25px;
+
+}
+
+.socialSo1{
+	font-size: 20px;
+}
+
+.socialSo2{
+	font-size: 20px;
+}
+
+.socialSo3{
+	font-size: 20px;
+}
+
+.socialSo1:hover{
+	text-decoration: underline;
+}
+
+.socialSo2:hover{
+	text-decoration: underline;
+}
+
+.socialSo3:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+/* CSS DE PESTAÑA OFERTAS! */
+
+.mainOfertas{
+	background-image: url('./Img/heroO.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top: 95px;
+	color: white;
+}
+
+.containerOferta{
+	display: grid;
+	grid-template-areas: 
+		"parte1"
+		"parte2"
+		"parte3"
+		"parte4"
+		"parte5";
+	grid-template-columns: auto;
+	grid-template-rows: auto auto auto auto auto; 
+
+}
+
+.parte1{
+	grid-area: parte1;
+	align-self: center;
+	justify-self: center;
+}
+
+.parte2{
+	grid-area: parte2;
+	align-self: center;
+	justify-self: center;
+}
+
+.parte3{
+	grid-area: parte3;
+	align-self: center;
+	justify-self: center;
+}
+
+.parte4{
+	grid-area: parte4;
+	align-self: center;
+	justify-self: center;
+}
+
+.parte5{
+	grid-area: parte5;
+	align-self: center;
+	justify-self: center;
+}
+
+
+.tittleOferta{
+	font-size: 100px;
+	color: yellow;
+	/*transition: all 1s;*/
+	text-shadow: 5px 5px 5px black;
+}
+
+.textOf1{
+	padding-top: 20px;
+	font-size: 35px;
+}
+
+.imgOferta{
+	border-style: solid;
+	border-color: black;
+	margin-bottom: 35px;
+	margin-top: 35px;
+}
+
+.consultaOf{
+ 	padding: 10px 134px 10px 133px;
+ 	background-color: red;
+ 	font-size: 20px;
+ 	border-style: solid;
+ 	border-color: black;
+ 	color: white;
+}
+
+.textOf2{
+	padding-top: 20px;
+	font-size: 25px;
+	color: yellow;
+	text-shadow: 5px 5px 5px black;
+}
+
+.textOf3{
+	padding-top: 20px;
+	margin-left: 85%;
+	font-size: 25px;
+}
+
+	
+

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>N Computacion</title>
+		<link rel="stylesheet" href="main.css"/>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+
+	</head>
+
+	<body class="bodycontacto">
+		
+		<header class="header">
+
+			<nav>
+				<div class="brand">			
+					<a href="Index.html">
+					<img src="https://i.ibb.co/59cF2sJ/N2.png" alt="N2" border="0" class="logo">
+					</a>
+					<a href="Ofertas.html" class="ofertas">OFERTAS!</a>
+					<input type="text" name="Busqueda" class="searchbar" placeholder="Productos, Servicios...">
+					<input type="submit" value="🔍" class="search">							
+					<button class="lightM">Light Mode</button>
+				</div>
+
+				<div class="nav">
+					<a href="Index.html" class="itemI">Home</a>
+					<a href="Servicio.html" class="itemI">Servicios</a>
+					<a href="Sobre Nosotros.html" class="itemI">Sobre Nosotros</a>
+					<a href="Contacto.html" class="itemI">Contacto</a>
+				</div>
+			</nav> 
+		
+		</header>
+
+		<main class="mainC">
+
+			<br><br>
+			
+			<div class="form">	
+
+				<h2 class="formtittle">Formulario De Contacto</h2>			
+				
+				<form action="Contacto.html" method="GET" class="formcontacto">
+
+					<div class="nombreF">
+						<label for="nombre">Nombre:</label>
+						<input type="text"	id="nombre" name="nombre" value="" class="inputnombre" placeholder="Nombre">	
+					</div>
+
+					<div class="apellidoF">
+						<label for="apellido">Apellido:</label>
+						<input type="text" id="apellido" name="apellido" value="" class="inputapellido" inputnombre placeholder="Apellido">
+					</div>
+
+					<div class="mailF">
+						<label for="mail" class="textmail">Email:</label>
+						<input type="text" id="mail" name="mail" value="" class="inputmail" placeholder="tumail@mail.com">
+					</div>
+
+					<div>
+						<div class="textconsulta">
+							<label for="contact">Escribi Tu Consulta!</label>
+						</div>
+
+						<div>
+							<textarea name="contact" id="contact" cols="30" rows="10" placeholder="Hola, queria saber..." class='textareaF'></textarea>
+						</div>
+					</div>
+
+					<div>
+
+						<div class="textsosF">¿Sos Cliente Nuestro?</div>
+						
+						<div class="optionsF">
+							<label for="si">Si</label>
+							<input type="radio" name="valor" value="Si">
+							<label for="no">No</label>
+							<input type="radio" name="valor" value="No">
+						</div>	
+
+					</div>
+
+					<div>
+						<div class="textlistF">¿En cual de nuestros servicios estas mas interesado?</div>
+						<select name="tipo" class="selectF">
+							<option value="1"></option>
+							<option value="2">Servicio Tecnico</option>
+							<option value="3">Compra De Componentes</option>
+							<option value="4">Armado de PC</option>
+						</select>
+					</div>
+				
+					<div>
+						<input type="reset" value="Limpiar Formulario" class="cleanB">
+						<input type="submit" value="Enviar Formulario" class="sendB">					
+				    </div>
+
+				</form>
+
+			</div>
+
+			<br><br>
+
+		</main>
+
+		<footer class="footer">
+
+			<div class="map">
+				<h3>Mapa Del Sitio</h3>
+				<ul>
+					<li><a href="#">Terminos Y Condiciones</a></li>
+					<li><a href="#">Politicas De Privacidad</a></li>
+					<li><a href="Contacto.html">Contacto</a></li>
+					<li><a href="#">Soporte Al Cliente</a></li>
+				</ul>				
+			</div>
+
+			<div class="schedule">
+				<h3>Horarios</h3>
+				<ul>
+					<li>Lunes A Viernes</li>
+					<li>9:00 - 13:00 y 16:00 - 20:00</li>
+					<li>Sabados Y Domingos</li>
+					<li>9:00 - 12:00</li>
+				</ul>
+			</div>
+			
+			<div class="newsletter">
+				<h3>Suscribite Para Recibir Novedades</h3>
+				<input type="text" name="Busqueda" placeholder="tumail@mail.com" class="newsmail">
+				<button class="suscribe">Suscribirse</button>
+			</div>
+
+			<div class="social">
+				<h3>Seguinos!</h3>
+				<a href="https://www.facebook.com/ncomputacionrosario" class="itemsocial">Facebook</a>
+				<a href="https://www.instagram.com/ncomputacion/" class="itemsocial">Instagram</a>
+				<a href="#" class="itemsocial">Twitter</a>
+			</div>
+
+		</footer>
+
+	</body>
+
+</html>
