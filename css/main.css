@@ -87,6 +87,11 @@ a {
   75% {
     background-color: #B500FF; } }
 
+@media (max-width: 873px) {
+  .navBar {
+    font-size: 20px;
+    margin: 20px 20px 0px 0px; } }
+
 /* CSS DE FOOTER */
 footer a {
   color: white; }
@@ -94,41 +99,29 @@ footer a {
 .footer {
   color: white;
   background-color: black;
-  height: 130px;
   border-style: solid;
-  border-color: white; }
+  border-color: white;
+  padding: 20px 15px; }
 
-.map {
-  display: inline-block;
-  margin: 0px 0px 0px 100px;
-  float: left; }
+.footer div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start; }
 
 .schedule {
-  display: inline-block;
-  margin: 0px 0px 0px 300px;
-  float: left;
   font-weight: 800; }
 
-.newsletter {
-  display: inline-block;
-  margin: 30px 200px 0px 0px;
-  float: right; }
-
 .newsmail {
-  padding-right: 45px; }
+  padding-right: 30px; }
 
 .suscribe {
   background-color: red;
   color: white;
   padding: 0; }
 
-.social {
-  display: inline-block;
-  margin: 30px 350px 0px 0px;
-  float: right; }
-
-.social h3 {
-  margin-left: 60px; }
+.social li {
+  display: inline-block; }
 
 .itemsocial {
   padding: 0px 5px 0px 5px; }
@@ -253,6 +246,19 @@ h1 {
   align-self: center;
   justify-self: center; }
 
+@media (max-width: 1110px) {
+  .containerHome {
+    display: grid;
+    grid-template-areas: "celda2" "celda4" "celda7" "celda5" "celda8" "celda6" "celda9";
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto auto; }
+  .itemS {
+    margin-top: 10%; }
+  .itemA {
+    margin-top: 10%; }
+  .itemC {
+    margin-top: 10%; } }
+
 /* CSS DE PESTAÑA CONTACATO */
 .mainC {
   background-image: url("../Img/heroC.jpg");
@@ -288,6 +294,14 @@ h1 {
   font-size: 20px;
   margin-left: 60%;
   margin-bottom: 20px; }
+
+@media (max-width: 873px) {
+  .container {
+    max-width: 70%; }
+  .sendB {
+    font-size: 20px;
+    margin-left: 38%;
+    margin-bottom: 20px; } }
 
 /* CSS DE PESTAÑA SERVICIOS */
 .mainS {
@@ -402,6 +416,13 @@ h1 {
 .consulta3:hover {
   background-color: orange; }
 
+@media (max-width: 873px) {
+  .containerServ {
+    display: grid;
+    grid-template-areas: "area1" "area2" "area3";
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto; } }
+
 /* CSS DE PESTAÑA SOBRE NOSOTROS */
 .mainSo {
   background-image: url("../Img/heroSo.jpg");
@@ -515,7 +536,6 @@ h1 {
 .tittleOferta {
   font-size: 100px;
   color: yellow;
-  /*transition: all 1s;*/
   text-shadow: 5px 5px 5px black; }
 
 .textOf1 {
@@ -571,3 +591,7 @@ h1 {
   padding-top: 20px;
   margin-left: 85%;
   font-size: 25px; }
+
+@media (max-width: 873px) {
+  .textOf1 {
+    font-size: 26px; } }
