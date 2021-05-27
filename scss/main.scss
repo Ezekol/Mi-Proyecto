@@ -6,7 +6,7 @@
 
 
 body, html {
-	min-width: 100vh;
+	min-width: 100vw;
 	max-width: auto;
 	min-height: 100vh;
 	height: auto;
@@ -120,6 +120,7 @@ footer a{
 	border-style: solid;
 	border-color: white;
 	padding: 20px 15px;
+	box-sizing: border-box;
 }
 
 .footer div{
@@ -129,20 +130,17 @@ footer a{
 	justify-content: flex-start;
 }
 
-.map{
-
-}
-
 .schedule{
 	font-weight: 800;
 }
 
-.newsletter{
 
+.newsletter, .social, .schedule, .map{
+	align-self: center;
 }
 
 .newsmail{
-	padding-right: 30px;
+	padding-right: 20px;
 }
 
 .suscribe{

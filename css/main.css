@@ -5,7 +5,7 @@
   font-family: 'Oswald', sans-serif; }
 
 body, html {
-  min-width: 100vh;
+  min-width: 100vw;
   max-width: auto;
   min-height: 100vh;
   height: auto;
@@ -101,7 +101,8 @@ footer a {
   background-color: black;
   border-style: solid;
   border-color: white;
-  padding: 20px 15px; }
+  padding: 20px 15px;
+  box-sizing: border-box; }
 
 .footer div {
   display: flex;
@@ -112,8 +113,11 @@ footer a {
 .schedule {
   font-weight: 800; }
 
+.newsletter, .social, .schedule, .map {
+  align-self: center; }
+
 .newsmail {
-  padding-right: 30px; }
+  padding-right: 20px; }
 
 .suscribe {
   background-color: red;
