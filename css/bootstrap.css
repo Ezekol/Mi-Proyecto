@@ -4329,7 +4329,8 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  /*padding: 0.5rem 1rem;*/
+  padding-right: 15px;
 }
 
 .navbar .container,
@@ -4388,14 +4389,14 @@ input[type="button"].btn-block {
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
   -ms-flex-positive: 1;
-  flex-grow: 1;
+ /* flex-grow: 1;*/
   -ms-flex-align: center;
   align-items: center;
 }
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
+  /*font-size: 1.25rem;*/
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
@@ -4478,7 +4479,7 @@ input[type="button"].btn-block {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
     -ms-flex-pack: start;
-    justify-content: flex-start;
+    /*justify-content: flex-start;*/
   }
   .navbar-expand-md .navbar-nav {
     -ms-flex-direction: row;
