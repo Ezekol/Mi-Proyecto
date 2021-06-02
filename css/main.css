@@ -33,16 +33,14 @@ a {
   border-style: solid;
   border-color: white;
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  box-shadow: 0 5px 10px black; }
 
-.navBar {
-  float: right;
-  margin: 12px 20px 0px 0px; }
+.nav-item a:hover {
+  text-decoration: underline;
+  text-decoration-color: white; }
 
-.itemI {
-  padding: 20px; }
-
-.itemI:hover {
+.active {
   text-decoration: underline; }
 
 .brand {
@@ -151,19 +149,18 @@ li {
   grid-template-rows: auto auto auto; }
 
 h1 {
-  font-size: 80px; }
+  font-size: 80px;
+  text-shadow: 5px 5px 5px #696969; }
 
 .mainsubtittle {
   font-size: 40px;
-  background-color: yellow;
+  background-color: #b30000;
   border-style: solid;
   border-color: black;
   padding: 5px 20px 5px 20px;
-  margin-left: 33%;
-  transition: background-color 0.8s; }
-
-.mainsubtittle:hover {
-  background-color: orange; }
+  margin-left: 29%;
+  transition: background-color 0.8s;
+  color: white; }
 
 .celda2 {
   grid-area: celda2;
@@ -173,7 +170,7 @@ h1 {
 
 .itemS {
   font-size: 30px;
-  background-color: yellow;
+  background-color: #313131;
   border-style: solid;
   border-color: black;
   padding: 5px 20px 5px 20px;
@@ -181,38 +178,46 @@ h1 {
   align-self: center;
   justify-self: center;
   margin-bottom: 10%;
-  transition: background-color 0.8s; }
+  transition: background-color 0.8s;
+  color: white; }
 
 .itemS:hover {
-  background-color: orange; }
+  background-color: white;
+  color: #313131; }
 
 .itemA {
   font-size: 30px;
-  background-color: yellow;
+  background-color: #313131;
   padding: 5px 20px 5px 20px;
   border-style: solid;
+  border-color: black;
   grid-area: celda5;
   align-self: center;
   justify-self: center;
   margin-bottom: 10%;
-  transition: background-color 0.8s; }
+  transition: background-color 0.8s;
+  color: white; }
 
 .itemA:hover {
-  background-color: orange; }
+  background-color: white;
+  color: #313131; }
 
 .itemC {
   font-size: 30px;
-  background-color: yellow;
+  background-color: #313131;
   padding: 5px 20px 5px 20px;
   border-style: solid;
+  border-color: black;
   grid-area: celda6;
   align-self: center;
   justify-self: center;
   margin-bottom: 10%;
-  transition: background-color 0.8s; }
+  transition: background-color 0.8s;
+  color: white; }
 
 .itemC:hover {
-  background-color: orange; }
+  background-color: white;
+  color: #313131; }
 
 .imgS {
   border-style: solid;
@@ -268,13 +273,13 @@ h1 {
   h1 {
     font-size: 60px; }
   .mainsubtittle {
-    margin-left: 28%; } }
+    margin-left: 22%; } }
 
 @media (max-width: 385px) {
   h1 {
     font-size: 50px; }
   .mainsubtittle {
-    margin-left: 23%; } }
+    margin-left: 17%; } }
 
 /* CSS DE PESTAÑA CONTACATO */
 .mainC {
@@ -395,14 +400,12 @@ h1 {
 
 .consulta1 {
   padding: 10px 10px 10px 10px;
-  background-color: yellow;
+  background-color: red;
   font-size: 20px;
   border-style: solid;
   border-color: black;
-  transition: background-color 0.8s; }
-
-.consulta1:hover {
-  background-color: orange; }
+  transition: background-color 0.8s;
+  color: white; }
 
 .tittle2 {
   padding-top: 20px;
@@ -423,14 +426,12 @@ h1 {
 
 .consulta2 {
   padding: 10px 10px 10px 10px;
-  background-color: yellow;
+  background-color: red;
   font-size: 20px;
   border-style: solid;
   border-color: black;
-  transition: background-color 0.8s; }
-
-.consulta2:hover {
-  background-color: orange; }
+  transition: background-color 0.8s;
+  color: white; }
 
 .tittle3 {
   padding-top: 20px;
@@ -451,14 +452,12 @@ h1 {
 
 .consulta3 {
   padding: 10px 10px 10px 10px;
-  background-color: yellow;
+  background-color: red;
   font-size: 20px;
   border-style: solid;
   border-color: black;
-  transition: background-color 0.8s; }
-
-.consulta3:hover {
-  background-color: orange; }
+  transition: background-color 0.8s;
+  color: white; }
 
 @media (max-width: 873px) {
   .containerServ {
@@ -618,32 +617,11 @@ h1 {
 
 .consultaOf {
   padding: 10px 134px 10px 133px;
-  background-color: red;
+  background-color: #b30000;
   font-size: 20px;
   border-style: solid;
   border-color: black;
-  color: black;
-  animation-name: effectOf;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-  animation-duration: 4s;
-  animation-delay: 0.5s; }
-
-@keyframes effectOf {
-  0% {
-    background-color: #FF0000; }
-  12.5% {
-    background-color: #FF8C00; }
-  25% {
-    background-color: #FFFB00; }
-  37.5% {
-    background-color: #80FF00; }
-  50% {
-    background-color: #00FFDE; }
-  62.5% {
-    background-color: #0063FF; }
-  75% {
-    background-color: #B500FF; } }
+  color: white; }
 
 .textOf2 {
   padding-top: 20px;
