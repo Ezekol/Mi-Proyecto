@@ -38,7 +38,7 @@
 *,
 *::before,
 *::after {
-  /*box-sizing: border-box;*/
+  box-sizing: border-box;
 }
 
 html {
@@ -198,9 +198,9 @@ svg {
   vertical-align: middle;
 }
 
-table {
+/*table {
   border-collapse: collapse;
-}
+}*/
 
 caption {
   padding-top: 0.75rem;

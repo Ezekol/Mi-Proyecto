@@ -24,9 +24,9 @@
 				
 				<div class="brand">
 					<a href="index.html">
-						<img src="https://i.ibb.co/59cF2sJ/N2.png" alt="logo N" border="0" class="logo">
+						<img src="https://i.ibb.co/59cF2sJ/N2.png" alt="logo N" class="logo">
 					</a>
-					<a href="Ofertas.html" class="ofertas">OFERTAS!</a>	
+					<a href="ofertas.html" class="ofertas">OFERTAS!</a>	
 				</div>
 
 				<button class="navbar-toggler navbar-dark" data-toggle="collapse" data-target="#collapse_target">
@@ -41,15 +41,15 @@
 						</li>
 
 						<li class="nav-item">
-							<a href="Servicio.html" class="nav-link">Servicios</a>
+							<a href="servicio.html" class="nav-link">Servicios</a>
 						</li>
 
 						<li class="nav-item">
-							<a href="Sobre Nosotros.html" class="nav-link">Sobre Nosotros</a>
+							<a href="sobreNosotros.html" class="nav-link">Sobre Nosotros</a>
 						</li>
 
 						<li class="nav-item">
-							<a href="Contacto.html" class="nav-link active">Contacto</a>
+							<a href="contacto.html" class="nav-link active">Contacto</a>
 						</li>
 				
 					</ul>
@@ -60,56 +60,61 @@
 
 		<main class="mainC">
 
-			<br>
-			<div class="container mt-4 px-5 bg-dark">
+			<form>
 
-				<div class="mb-3">
-				  <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-				  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+				<br>
+				<div class="container mt-4 px-5 bg-dark">
+
+					<div class="mb-3">
+					<label for="exampleFormControlInput1" class="form-label">Nombre</label>
+					<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+					</div>
+
+					<div class="mb-3">
+					<label for="exampleFormControlInput1" class="form-label">Apellido</label>
+					<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+					</div>
+
+					<div class="mb-3">
+					<label for="exampleFormControlInput1" class="form-label">Email</label>
+					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="TuEmail@mail.com">
+					</div>
+
+					<div class="mb-3">
+					<label for="exampleFormControlTextarea1" class="form-label">Escriba Su Consulta!</label>
+					<textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Hola, queria saber sobre..."></textarea>
+					</div>
+
+					<h3 class="tittleform">¿Sos Cliente Nuestro?</h3>
+
+					<div class="form-check form-check">
+					<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+					<label class="form-check-label" for="inlineRadio1">Si</label>
+					</div>
+
+					<div class="form-check form-check">
+					<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+					<label class="form-check-label" for="inlineRadio2">No</label>
+					</div>
+
+					<h3 class="tittleform">¿En que servicio estas mas interesado?</h3>
+
+					<select class="form-select">
+					<option selected></option>
+					<option value="1">Asesoramiento</option>
+					<option value="2">Serivico Tecnico</option>
+					<option value="3">Componentes</option>
+					</select>
+
+					<div>
+						<input type="submit" value="Enviar" class="sendB">					
+					</div>
+
 				</div>
+				<br>
 
-				<div class="mb-3">
-				  <label for="exampleFormControlInput1" class="form-label">Apellido</label>
-				  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
-				</div>
+			</form>
 
-				<div class="mb-3">
-				  <label for="exampleFormControlInput1" class="form-label">Email</label>
-				  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="TuEmail@mail.com">
-				</div>
-
-				<div class="mb-3">
-				  <label for="exampleFormControlTextarea1" class="form-label">Escriba Su Consulta!</label>
-				  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Hola, queria saber sobre..."></textarea>
-				</div>
-
-				<h3 class="tittleform">¿Sos Cliente Nuestro?</h3>
-
-				<div class="form-check form-check">
-				  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-				  <label class="form-check-label" for="inlineRadio1">Si</label>
-				</div>
-
-				<div class="form-check form-check">
-				  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-				  <label class="form-check-label" for="inlineRadio2">No</label>
-				</div>
-
-				<h3 class="tittleform">¿En que servicio estas mas interesado?</h3>
-
-				<select class="form-select">
-				  <option selected></option>
-				  <option value="1">Asesoramiento</option>
-				  <option value="2">Serivico Tecnico</option>
-				  <option value="3">Componentes</option>
-				</select>
-
-				<div>
-					<input type="submit" value="Enviar" class="sendB">					
-				</div>
-
-			</div>
-			<br>
 		</main>
 
 		<footer class="footer row container-fluid">
@@ -119,7 +124,7 @@
 				<ul>
 					<li><a href="#">Terminos Y Condiciones</a></li>
 					<li><a href="#">Politicas De Privacidad</a></li>
-					<li><a href="Contacto.html">Contacto</a></li>
+					<li><a href="#">Contacto</a></li>
 					<li><a href="#">Soporte Al Cliente</a></li>
 				</ul>				
 			</div>
